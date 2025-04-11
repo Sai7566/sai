@@ -9,7 +9,7 @@ import Navbar from './Navbar';
 import searchIcon from "../assets/search_icon.png";
 import logo from "../assets/logo.png";
 
-import { ShopContext } from '../tempContext/ShopContext';
+import { ShopContext } from '../context/ShopContext';
 
 const Header = () => {
   const location = useLocation();

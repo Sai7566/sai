@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
-import { ShopContext } from "../tempContext/ShopContext";
+import { ShopContext } from "../context/ShopContext";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfStroke, FaTruckFast } from "react-icons/fa6";
 import { TbShoppingBagPlus } from "react-icons/tb";
