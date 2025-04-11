@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+
+
 
 import { products as initialProducts } from "../assets/data";
 import { toast } from "react-toastify";
@@ -7,11 +8,12 @@ import axios from "axios";
 
 export const ShopContext = createContext();
 
-const ShopContextProvider = ({ children }) => {
+export const ShopContextProvider = ({ children }) => {
   const currency = "₹";
   const delivery_charges = 10;
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
-  const navigate = useNavigate();
+  
+
 
  
 
@@ -163,7 +165,7 @@ const removeFromFavorites = (productId) => {
   const contextValues = {
     currency,
     delivery_charges,
-    navigate,
+    
     products,
     setProducts,
     token,
