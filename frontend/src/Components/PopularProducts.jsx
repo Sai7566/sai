@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Title from './Title';
-import { ShopContext } from '../Context/ShopContext';
+import { ShopContext } from '../tempContext/ShopContext';
 import Item from './Item';
 
 const PopularProducts = () => {

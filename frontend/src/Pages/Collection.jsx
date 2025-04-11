@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { ShopContext } from '../Context/ShopContext';
+import { ShopContext } from '../tempContext/ShopContext';
 import Item from '../Components/Item';
 import Footer from '../Components/Footer';
 import { FaFilter, FaTimes } from 'react-icons/fa';

@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper/modules";
 import Item from "./Item";
-import { ShopContext } from "../Context/ShopContext";
+import { ShopContext } from "../tempContext/ShopContext";
 
 const NewArrivals = () => {
   const {products} = useContext(ShopContext)

@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect, useRef } from "react";
 import axios from "axios";
-import { ShopContext } from "../Context/ShopContext";
+import { ShopContext } from "../tempContext/ShopContext";
 import { AiOutlineSend, AiOutlineRobot } from "react-icons/ai";
 import { XCircle, BotIcon } from "lucide-react";
 import { FaMicrophone, FaMicrophoneAlt } from "react-icons/fa";

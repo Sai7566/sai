@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import CartTotal from '../Components/CartTotal';
 import Footer from '../Components/Footer';
-import { ShopContext } from '../Context/ShopContext';
+import { ShopContext } from '../tempContext/ShopContext';
 import { useNavigate } from 'react-router-dom';
 import { toast } from "react-toastify";
 
